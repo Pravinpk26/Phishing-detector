@@ -1,0 +1,43 @@
+.statsGrid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:18px;
+
+margin-bottom:20px;
+
+}
+
+.statCard{
+
+background:#111827;
+
+border:1px solid #1f3b5a;
+
+border-radius:16px;
+
+padding:20px;
+
+color:white;
+
+text-align:center;
+
+}
+
+.statCard h3{
+
+font-size:15px;
+
+color:#94a3b8;
+
+margin-bottom:10px;
+
+}
+
+.statCard h1{
+
+font-size:36px;
+
+}

@@ -1,0 +1,117 @@
+.sidebar{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.statusCard,
+.featureCard,
+.privacyCard{
+
+background:#111827;
+
+border:1px solid #1f3b5a;
+
+border-radius:16px;
+
+padding:20px;
+
+color:white;
+
+}
+
+.statusCard h2{
+
+font-size:22px;
+
+margin-bottom:15px;
+
+}
+
+.activeBadge{
+
+display:inline-block;
+
+background:#22c55e;
+
+padding:8px 18px;
+
+border-radius:20px;
+
+font-weight:600;
+
+margin-bottom:15px;
+
+}
+
+.featureCard h3,
+.privacyCard h3{
+
+margin-bottom:15px;
+
+}
+
+.featureCard ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.featureCard li{
+
+padding:10px 0;
+
+border-bottom:1px solid #233b55;
+
+}
+
+.featureCard li:last-child{
+
+border:none;
+
+}
+
+.privacyCard p{
+
+margin-top:12px;
+
+color:#cbd5e1;
+
+}
+.statsCard{
+
+background:#111827;
+
+border:1px solid #1f3b5a;
+
+border-radius:16px;
+
+padding:20px;
+
+color:white;
+
+}
+
+.statRow{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:10px 0;
+
+border-bottom:1px solid #22364d;
+
+}
+
+.statRow:last-child{
+
+border:none;
+
+}

@@ -1,0 +1,29 @@
+:root{
+    --bg:#081827;
+    --sidebar:#0F2236;
+    --card:#142B44;
+    --border:#274A6D;
+
+    --primary:#3B82F6;
+    --success:#22C55E;
+    --danger:#EF4444;
+    --warning:#F59E0B;
+
+    --text:#F8FAFC;
+    --subText:#AAB7C5;
+
+    --radius:18px;
+    --shadow:0 8px 25px rgba(0,0,0,.25);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:Inter,Arial,sans-serif;
+}

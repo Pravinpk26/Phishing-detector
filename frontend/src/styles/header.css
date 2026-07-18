@@ -1,0 +1,27 @@
+.header{
+
+background:#0f1b2d;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 0 10px rgba(0,0,0,.3);
+
+}
+
+.header h1{
+
+margin:0;
+
+font-size:38px;
+
+}
+
+.header p{
+
+color:#8ea8d2;
+
+margin-top:10px;
+
+}

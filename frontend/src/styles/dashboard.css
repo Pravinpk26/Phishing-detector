@@ -1,0 +1,37 @@
+.dashboard{
+
+    padding:30px;
+
+}
+
+.mainLayout{
+
+    display:grid;
+
+    grid-template-columns:300px 1.4fr 480px;
+
+    gap:20px;
+
+    margin-top:20px;
+
+}
+
+.middle{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}

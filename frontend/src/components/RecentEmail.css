@@ -1,0 +1,109 @@
+.emailCard{
+
+    background:#111827;
+
+    border:1px solid #1f3b5a;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    color:white;
+
+}
+
+.emailHeader{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:22px;
+
+}
+
+.emailHeader h2{
+
+    font-size:24px;
+
+}
+
+.scanBadge{
+
+    background:#2563eb;
+
+    padding:8px 16px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+.emailInfo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    margin-bottom:22px;
+
+}
+
+.infoRow{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    border-bottom:1px solid #22364d;
+
+    padding-bottom:10px;
+
+}
+
+.label{
+
+    color:#9fb4c9;
+
+    font-weight:600;
+
+}
+
+.previewBox{
+
+    background:#0d1827;
+
+    border:1px solid #1d3349;
+
+    border-radius:12px;
+
+    padding:18px;
+
+    line-height:1.7;
+
+    color:#d8e4ef;
+
+    margin-bottom:20px;
+
+}
+
+.attachmentSection h3{
+
+    margin-bottom:12px;
+
+}
+
+.attachment{
+
+    background:#182c44;
+
+    padding:12px;
+
+    border-radius:10px;
+
+}

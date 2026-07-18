@@ -1,0 +1,65 @@
+.historyCard{
+
+background:#111827;
+
+border:1px solid #1f3b5a;
+
+border-radius:18px;
+
+padding:22px;
+
+color:white;
+
+}
+
+.historyCard h2{
+
+margin-bottom:18px;
+
+}
+
+.historyItem{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:flex-start;
+
+padding:16px 0;
+
+border-bottom:1px solid #22364d;
+
+}
+
+.historyItem:last-child{
+
+border-bottom:none;
+
+}
+
+.historyItem p{
+
+margin-top:6px;
+
+color:#cbd5e1;
+
+}
+
+.red{
+
+color:#ef4444;
+
+}
+
+.orange{
+
+color:#f59e0b;
+
+}
+
+.green{
+
+color:#22c55e;
+
+}

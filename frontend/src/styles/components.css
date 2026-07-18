@@ -1,0 +1,47 @@
+.card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.title{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
+}
+
+.subtitle{
+
+    color:var(--subText);
+
+    margin-top:6px;
+
+}
+
+.badge{
+
+    background:var(--success);
+
+    color:white;
+
+    padding:6px 14px;
+
+    border-radius:30px;
+
+    display:inline-block;
+
+    font-size:13px;
+
+}
