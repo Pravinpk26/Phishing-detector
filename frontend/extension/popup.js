@@ -30,6 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     return;
                 }
 
+                const scanNote = email.limited
+                    ? `<p style="color:#f5c451;"><strong>Quick preview scan</strong> — this email wasn't opened, so only the sender, subject, and preview snippet were checked (no links or full body). Open the email for a complete scan.</p>`
+                    : "";
+
                 // Send extracted email to background.js
                 chrome.runtime.sendMessage(
                     {
@@ -53,6 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                         result.innerHTML = `
                             <h2>Analysis Result</h2>
+
+                            ${scanNote}
 
                             <p><strong>Risk Score:</strong> ${analysis.score}/100</p>
 
